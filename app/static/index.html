@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI College Assistant Demo</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/app.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <p class="eyebrow">Classroom demonstration</p>
+        <h1>AI College Assistant</h1>
+        <p>Fictional sample information only — not real college policy or student data.</p>
+      </header>
+
+      <section class="panel">
+        <h2>Ask about the demo FAQ</h2>
+        <form id="question-form">
+          <label for="question">Question</label>
+          <textarea id="question" name="question" maxlength="500" required></textarea>
+          <button type="submit">Ask</button>
+        </form>
+        <div id="answer" class="result" aria-live="polite"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Show my attendance</h2>
+        <p>Use a fictional demo ID such as <strong>DEMO1001</strong> or <strong>DEMO1002</strong>.</p>
+        <form id="attendance-form">
+          <label for="student-id">Fictional student ID</label>
+          <input
+            id="student-id"
+            name="student_id"
+            type="text"
+            minlength="8"
+            maxlength="8"
+            pattern="DEMO[0-9]{4}"
+            placeholder="DEMO1001"
+            autocomplete="off"
+            required
+          >
+          <button type="submit">Show attendance</button>
+        </form>
+        <div id="attendance-result" class="result" aria-live="polite"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Ask about fictional college policies</h2>
+        <p>Answers use only retrieved source context. Sources are fictional demonstration material.</p>
+        <form id="policy-form">
+          <label for="policy-question">Policy question</label>
+          <textarea id="policy-question" name="question" maxlength="500" required></textarea>
+          <button type="submit">Ask about policies</button>
+        </form>
+        <div id="policy-results" class="result" aria-live="polite"></div>
+      </section>
+
+      <p id="message" role="status" aria-live="polite"></p>
+    </main>
+  </body>
+</html>

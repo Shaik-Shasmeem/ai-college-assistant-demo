@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Fictional Demo Library Hours",
+    "keywords": ["library", "hours", "open", "closes", "opening"],
+    "answer": "In this fictional demonstration, the library is open Monday to Friday from 8:00 AM to 6:00 PM."
+  },
+  {
+    "title": "Fictional Demo Lab Booking",
+    "keywords": ["laboratory", "lab", "booking", "reserve", "reservation"],
+    "answer": "In this fictional demonstration, students may reserve a lab workstation through the department office."
+  },
+  {
+    "title": "Fictional Demo Office Hours",
+    "keywords": ["faculty", "office", "consultation", "hours", "instructor"],
+    "answer": "In this fictional demonstration, faculty consultation hours are posted on the department notice board."
+  }
+]

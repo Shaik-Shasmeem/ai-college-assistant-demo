@@ -1,0 +1,39 @@
+{
+  "students": [
+    {
+      "student_id": "DEMO1001",
+      "subjects": [
+        {
+          "subject_code": "CS101",
+          "subject_name": "Introduction to Computing",
+          "classes": [true, true, false, true]
+        },
+        {
+          "subject_code": "SE201",
+          "subject_name": "Software Engineering Basics",
+          "classes": [true, true, true, true]
+        },
+        {
+          "subject_code": "MA105",
+          "subject_name": "Discrete Mathematics",
+          "classes": []
+        }
+      ]
+    },
+    {
+      "student_id": "DEMO1002",
+      "subjects": [
+        {
+          "subject_code": "CS101",
+          "subject_name": "Introduction to Computing",
+          "classes": [true, true, true]
+        },
+        {
+          "subject_code": "SE201",
+          "subject_name": "Software Engineering Basics",
+          "classes": [true, false]
+        }
+      ]
+    }
+  ]
+}
